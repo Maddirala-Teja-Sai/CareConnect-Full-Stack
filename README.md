@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/CareConnect-Healthcare%20Platform-00BFA6?style=for-the-badge&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmc[...]
+  <img src="https://img.shields.io/badge/CareConnect-Healthcare%20Platform-00BFA6?style=for-the-badge&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSAzSDVjLTEuMSAwLTEuOTkuOS0xLjk5IDJMNSA1djE0YzAgMS4xLjkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNWMwLTEuMS0uOS0yLTItMnptLTEgMTBoLTR2NGgtMnYtNEg4di0yaDRWN2gydjRoNHYyeiIvPjwvc3ZnPg==" alt="CareConnect">
 </p>
 
 <h1 align="center">🏥 CareConnect</h1>
@@ -35,9 +35,9 @@
 
 ## 📖 About
 
-**CareConnect** is a full-stack healthcare management platform that enables patients to find doctors across 28 medical specialties, book physical and virtual appointments, manage daily medications, and access secure medical records in one place.
+**CareConnect** is a full-stack healthcare management platform that enables patients to find doctors across 28 medical specialties, book physical and virtual appointments, manage daily medications with reminders, securely store medical records, and interact with an AI-powered health assistant.
 
-The platform follows a **dual-backend microservices architecture** — using **Spring Boot + PostgreSQL** for transactional reliability (auth, appointments, billing) and **Node.js + MongoDB** for flexible services such as medication tracking, records, notifications, and search.
+The platform follows a **dual-backend microservices architecture** — using **Spring Boot + PostgreSQL** for transactional reliability (auth, appointments, billing) and **Node.js + MongoDB** for schema flexibility and real-time features (medications, records, notifications). Services communicate asynchronously via **Apache Kafka** for loose coupling and scalability.
 
 ---
 
